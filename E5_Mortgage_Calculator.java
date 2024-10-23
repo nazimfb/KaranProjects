@@ -2,7 +2,7 @@ package KaranProjects;
 
 import java.util.Scanner;
 
-public class E_Mortgage_Calculator {
+public class E5_Mortgage_Calculator {
 
 	public static void main(String[] args) {
 		
@@ -32,7 +32,7 @@ public class E_Mortgage_Calculator {
 			numberOfPayments = years * 365; //Daily payments;
 			break;
 		case 3:
-			numberOfPayments = (int) (years *365 * 24 * 60); //Continuous compounding
+			numberOfPayments = years *365 * 24 * 60; //Continuous compounding
             break;
 			
 		}

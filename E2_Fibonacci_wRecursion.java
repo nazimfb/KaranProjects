@@ -2,7 +2,7 @@ package KaranProjects;
 
 import java.util.Scanner;
 
-public class B_Fibonacci_wRecursion {
+public class E2_Fibonacci_wRecursion {
 	static int n1=0,n2=1,n3=0;    
 
 	 

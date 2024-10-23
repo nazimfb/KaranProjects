@@ -2,7 +2,7 @@ package KaranProjects;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class A_Find_PI_and_e_to_the_Nth_Digit {
+public class E1_Find_PI_and_e_to_the_Nth_Digit {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number: ");

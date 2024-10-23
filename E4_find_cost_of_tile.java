@@ -2,7 +2,7 @@ package KaranProjects;
 
 import java.util.Scanner;
 
-public class D_find_cost_of_tile {
+public class E4_find_cost_of_tile {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

@@ -3,7 +3,7 @@ package KaranProjects;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class B_Fibonacci_A {
+public class E2_Fibonacci_A {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter number of fibonaci sequence: ");

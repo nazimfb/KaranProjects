@@ -2,7 +2,7 @@ package KaranProjects;
 
 import java.util.Scanner;
 
-public class C_Prime_Factorization {
+public class E3_Prime_Factorization {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
