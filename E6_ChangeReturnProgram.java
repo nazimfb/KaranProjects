@@ -17,11 +17,13 @@ public class E6_ChangeReturnProgram {
         int changeInCents = (int) Math.round((moneyGiven - price) * 100);
         if (changeInCents < 0) {
             System.out.println("The given amount is less than the cost.");
+            scanner.close();
             return;
         }
 
         System.out.println("Your change: " + returnChange(price, moneyGiven) + "$");
 
+        scanner.close();
     }
 
     public static float returnChange(float price, float moneyGiven) {
@@ -31,7 +33,7 @@ public class E6_ChangeReturnProgram {
         float change = moneyGiven - price;
 
         //1.99
-        //1 + 1 * 0.25 + 1 * 0.05 + 0 * 0.01
+        //1 + 3 * 0.25 + 1 * 0.05 + 0 * 0.01
 
         BigDecimal number = new BigDecimal(Float.toString(change));
         BigDecimal iPart = new BigDecimal(number.toBigInteger());
